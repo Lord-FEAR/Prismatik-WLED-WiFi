@@ -8,15 +8,16 @@ Adds WARLS protocol for WLED
 
 ## Installation
 
-Install Python 3.7
-Download the ZIP from the repository
+Install Python 3.7  
 In Prismatik:
-Enable the API
-Enable Expert mode under Profiles
-Check Enable server under Experimental
-Place the unzipped folder in the Prismatik plugins directory (e.g. C:\Users\owenb321\Prismatik\Plugins\WLED-WiFi)
-Adjust settings in the WLED-WiFi.ini file
-Refresh the plugin list in Prismatik
+- Enable the API
+- Enable Expert mode under Profiles
+- Check Enable server under Experimental
+
+Download the ZIP from the repository 
+Place the unzipped folder in the Prismatik plugins directory (e.g. C:\Users\owenb321\Prismatik\Plugins\WLED-WiFi)  
+Adjust settings in the WLED-WiFi.ini file  
+Refresh the plugin list in Prismatik  
 
 ## Configuration Settings are configured in the WLED-WiFi.ini file.
 
