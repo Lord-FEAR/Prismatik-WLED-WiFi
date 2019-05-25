@@ -14,8 +14,8 @@ In Prismatik:
 - Enable Expert mode under Profiles
 - Check Enable server under Experimental
 
-Download the ZIP from the repository 
-Place the unzipped folder in the Prismatik plugins directory (e.g. C:\Users\owenb321\Prismatik\Plugins\WLED-WiFi)  
+Download the ZIP from the repository. 
+Place the unzipped folder in the Prismatik plugins directory (e.g. C:\Users\LordF\Prismatik\Plugins\WLED-WiFi)  
 Adjust settings in the WLED-WiFi.ini file  
 Refresh the plugin list in Prismatik  
 
@@ -24,5 +24,5 @@ Refresh the plugin list in Prismatik
 - Main
 	- These are used by Prismatik to identify the plugin
 	- Execute -  path to python.exe or python exe from system path
-- Animation
+- WLED
 	- FPS - frames per second
