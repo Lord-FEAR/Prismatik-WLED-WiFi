@@ -1,7 +1,8 @@
 # Prismatik WLED-WiFi plugin
-Adds WARLS protocol for WLED
+Ambilight via WiFi. Prismatik plugin to support WLED
 
 ## Dependencies
+* [WLED](https://github.com/Aircoookie/WLED "WLED") for ESP8266/ESP32
 * [Python 3.7](https://www.python.org/downloads/ "Python 3.7")
 * [Prismatik](https://github.com/psieg/Lightpack/releases "Prismatik") (tested on 5.11.2.19)
 * [py-lightpack](https://github.com/tremby/py-lightpack "py-lightpack")
