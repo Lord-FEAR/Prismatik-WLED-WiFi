@@ -1,12 +1,12 @@
-#Prismatik WLED-WiFi plugin
+# Prismatik WLED-WiFi plugin
 Adds WARLS protocol for WLED
 
-##Dependencies
+## Dependencies
 * [Python 3.7](https://www.python.org/downloads/ "Python 3.7")
 * [Prismatik](https://github.com/psieg/Lightpack/releases "Prismatik") (tested on 5.11.2.19)
 * [py-lightpack](https://github.com/tremby/py-lightpack "py-lightpack")
 
-##Installation
+## Installation
 
 Install Python 3.7
 Download the ZIP from the repository
@@ -18,7 +18,7 @@ Place the unzipped folder in the Prismatik plugins directory (e.g. C:\Users\owen
 Adjust settings in the WLED-WiFi.ini file
 Refresh the plugin list in Prismatik
 
-##Configuration Settings are configured in the WLED-WiFi.ini file.
+## Configuration Settings are configured in the WLED-WiFi.ini file.
 
 - Main
 	- These are used by Prismatik to identify the plugin
