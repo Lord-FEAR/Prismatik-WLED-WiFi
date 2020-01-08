@@ -2,7 +2,7 @@
 Ambilight via WiFi. Prismatik plugin to support WLED
 
 ## Dependencies
-* [WLED](https://github.com/Aircoookie/WLED "WLED") for ESP8266/ESP32
+* [WLED](https://github.com/Aircoookie/WLED/releases/tag/v0.8.6 "WLED") for ESP8266/ESP32 (checked for 0.8.6)
 * [Python 3.7](https://www.python.org/downloads/ "Python 3.7")
 * [Prismatik](https://github.com/psieg/Lightpack/releases "Prismatik") (tested on 5.11.2.19)
 * [py-lightpack](https://github.com/tremby/py-lightpack "py-lightpack")  
@@ -27,7 +27,8 @@ Refresh the plugin list in Prismatik
 ## Configuration Settings are configured in the WLED-WiFi.ini file.
 
 - Main
-	- These are used by Prismatik to identify the plugin
 	- Execute -  path to python.exe or python exe from system path
 - WLED
-	- FPS - frames per second
+	- UDP_IP_ADDRESS - Exact ip or x.x.x.255 for broadband (convenient with dynamic ip on the device)
+	- UDP_PORT_NO - Port on the WLED device (default 21324) Settings -> Sync Interfaces -> UDP Port
+	- FPS - Frames per second

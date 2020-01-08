@@ -24,13 +24,12 @@ class WLED_WiFi:
     def run(self):
         while(True):
             d = self.lp.getColoursFromAll()
-            v = [1, 1]
+            v = [2, 2]
             for i in d:
-                v.append(i)
                 v.append(d[i][0])
                 v.append(d[i][1])
                 v.append(d[i][2])
-            Message = bytearray(v)
+            Message = bytes(v)
             clientSock = socket.socket (socket.AF_INET, socket.SOCK_DGRAM)
             clientSock.sendto (Message, (self.udpBroadcastIp, self.udpPort))
             sleep(1/self.fps)
