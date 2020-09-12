@@ -32,3 +32,6 @@ Refresh the plugin list in Prismatik
 	- UDP_IP_ADDRESS - Exact ip or x.x.x.255 for broadband (convenient with dynamic ip on the device)
 	- UDP_PORT_NO - Port on the WLED device (default 21324) Settings -> Sync Interfaces -> UDP Port
 	- FPS - Frames per second
+	
+## The new version of hyperion adds support for WLED.
+https://github.com/hyperion-project/hyperion.ng/releases
